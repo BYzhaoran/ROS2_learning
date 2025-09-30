@@ -1,0 +1,16 @@
+# Parameter configuration file
+# 参数配置文件
+
+your_node_name:
+  ros__parameters:
+    # Basic parameters
+    update_rate: 10.0
+    enable_debug: false
+    
+    # String parameters
+    robot_name: "learning_robot"
+    frame_id: "base_link"
+    
+    # Array parameters
+    joint_names: ["joint1", "joint2", "joint3"]
+    joint_limits: [1.57, 1.57, 1.57]

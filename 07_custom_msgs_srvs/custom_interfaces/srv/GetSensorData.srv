@@ -1,0 +1,10 @@
+# Custom Service Example
+# 自定义服务示例
+
+# Request
+string sensor_name
+---
+# Response  
+bool success
+string message
+SensorData sensor_data
